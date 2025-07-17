@@ -1,0 +1,43 @@
+{
+  "name": "library-management-system",
+  "version": "1.0.0",
+  "description": "A modern, full-stack Library Management System built with the MERN stack",
+  "main": "index.js",
+  "scripts": {
+    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:backend": "cd backend && npm start",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "start": "cd backend && npm start"
+  },
+  "keywords": [
+    "library",
+    "management",
+    "system",
+    "mern",
+    "react",
+    "nodejs",
+    "mongodb",
+    "tailwind"
+  ],
+  "author": "Library Management Team",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PLP-MERN-Stack-Development/week-6-test-debug-assignment-MURACHIAJIMMY.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PLP-MERN-Stack-Development/week-6-test-debug-assignment-MURACHIAJIMMY/issues"
+  },
+  "homepage": "https://github.com/PLP-MERN-Stack-Development/week-6-test-debug-assignment-MURACHIAJIMMY#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
